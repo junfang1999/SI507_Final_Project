@@ -1,5 +1,4 @@
 import search
-from collections import Counter
 
 data = search.data
 
