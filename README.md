@@ -38,4 +38,5 @@ This code will make a visualization (e.g. table, barplot, piechart) using `plotl
 python3 main.py --graphic piechart --graphic_property gender visualize
 ```
 
+## Data Structure Used
 
