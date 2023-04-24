@@ -24,7 +24,8 @@ class TreeNode:
 		self.right = None
 
 class BinarySearchTree:
-
+	#This class allows users to insert nodes into the binary search tree.
+	#Additionally, this class allows users to search for a congressperson with a specific name.
 	def __init__(self):
 		self.root = None
 
