@@ -39,5 +39,5 @@ python3 main.py --graphic piechart --graphic_property gender visualize
 ```
 
 ## Data structure used:
-In my code, I use a Binary Search Tree in order to quickly search through the names of the users. To construct this binary search tree, I created the custom classes `TreeNode` and `BinarySearchTree` in the `search.py` file. The `BinarySearchTree` class has an `insert` method that we use to add congresspersons to the tree, as well as a `search` method, which we use in the function `search.name_search` to quickly search for a specific congressperson.
+In my code, I use a Binary Search Tree in order to quickly search through the names of the users. To construct this binary search tree, I created the custom classes `TreeNode` and `BinarySearchTree` in the `search.py` file. The `BinarySearchTree` class has an `insert` method that we use to add congresspersons to the tree, as well as a `search` method, which we use in the function `search.name_search` to quickly search for a specific congressperson. When `search.py` is imported in the `main.py` file, a `BinarySearchTree` object is constructed and it is populated from our scraped data, which is saved in the file `npc13.csv`. 
 
