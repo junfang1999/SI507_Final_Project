@@ -3,11 +3,11 @@ This is my final project for SI 507.
 
 ## Required packages and files:
 To run this code, you will need to have installed the following python 3 packages:
-* bs4
-* selenium
-* urllib
-* argparse
-* plotly
+* `bs4`
+* `selenium`
+* `urllib`
+* `argparse`
+* `plotly`
 
 
 Additionally, you will need to download the chromedriver and install it in the root directory of this repository. ChromeDriver can be installed here: [https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads).
